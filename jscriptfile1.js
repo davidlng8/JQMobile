@@ -1,8 +1,11 @@
 
-function test(){
-	var menu = $('#menu');
-	alert(menu);
-}
+//attempt to dynamically create panel
+$(document).on('pagecreate', '[data-role="page"]', function(){                
+    $('<div>').attr({'id':'mypanel','data-role':'panel'}).appendTo($(this));
+    $(document).on('click', '#open-panel', function(){   
+         $.mobile.activePage.find('#mypanel').panel("open");       
+    });    
+});
 
 function convert(s, val){
 	//alert('clicked: '+s+' '+val);
