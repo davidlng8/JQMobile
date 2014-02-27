@@ -1,0 +1,65 @@
+.ui-bar-J{
+	color:green;
+	background-color: orange;
+}
+
+.ui-body-J{
+	font-weight:bold;
+	color:red;
+	background-color:blue;
+}
+
+.ui-btn-up-J{
+	color:green;
+	background-color:orange;
+}
+
+.ui-btn-hover-J{
+	color:white;
+	background-color:black;
+}
+
+.ui-btn-dwn-J{
+	color:yellow;
+	background-color:purple;
+}
+
+table td{
+	padding-top: 15px;
+}
+
+/*custom theme*/
+
+.ui-bar-D{
+	background: -webkit-linear-gradient(black, white, black); /* For Safari */
+	background: -o-linear-gradient(black, white, black); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(black, white, black); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(black, white, black); /* Standard syntax */
+	
+}
+
+.ui-body-D{
+	font-weight:bold;
+	color:red;
+	background-color:blue;
+}
+
+table tr td{
+	 padding-left:10px; padding-right:5px;
+	 whitespace:nowrap;
+}
+
+.ui-btn-up-D{
+	color:green;
+	background-color:orange;
+}
+
+.ui-btn-hover-D{
+	color:white;
+	background-color:black;
+}
+
+.ui-btn-dwn-D{
+	color:yellow;
+	background-color:purple;
+}

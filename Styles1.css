@@ -1,0 +1,46 @@
+html{
+}
+
+body{
+}
+
+p{
+	padding-left: 15px;
+}
+.heading{
+	background: #000;
+	color:FFCC00;
+	-moz-border-radius:5px;
+	border-radius: 5px;
+	-webkit-border-radius:5px;
+	padding-left: 12px;
+}
+
+div.link{
+	cursor:pointer;
+	font-weight:bold;
+}
+
+.page
+{
+    width: 960px;
+    background-color: #fff;
+    margin: 20px auto 0px auto;
+    
+    min-height:500px;
+}
+
+table.links tr td{
+	text-align:center;
+	background:FFCC00;
+	color:#000;
+}
+
+table.links tr td:hover{
+	color:FFCC00;
+	background:#000;
+}
+
+a.link {
+	width:250px;
+}
