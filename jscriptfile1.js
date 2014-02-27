@@ -1,3 +1,9 @@
+
+function test(){
+	var menu = $('#menu');
+	alert(menu);
+}
+
 function convert(s, val){
 	//alert('clicked: '+s+' '+val);
 	var itm = 0.0,deg;
